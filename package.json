@@ -1,0 +1,17 @@
+{
+  "name": "inventory-system",
+  "version": "1.0.0",
+  "description": "Inventory and Data Management System - Node, Express, MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb-memory-server": "^11.3.0",
+    "mongoose": "^8.5.0"
+  }
+}
